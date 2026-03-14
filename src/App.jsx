@@ -3,24 +3,26 @@ import { createPortal } from 'react-dom'
 import { profile, achievements, credentials, cars, tracks, raceHighlights } from './data/resume'
 import { stats } from './data/trackLog'
 
-const HEADSHOT = '/images/FA597767-00CE-4C1E-903B-9959FEF8F629_1_105_c.jpeg'
-const HERO_BANNER = '/images/8.3.24 Member Challenge Race-6275.jpg'
+const base = import.meta.env.BASE_URL
+
+const HEADSHOT = `${base}images/FA597767-00CE-4C1E-903B-9959FEF8F629_1_105_c.jpeg`
+const HERO_BANNER = `${base}images/8.3.24 Member Challenge Race-6275.jpg`
 
 const galleryPhotos = [
-  { src: '/images/IMG_4420.jpg', alt: 'P1 podium at Monticello Motor Club' },
-  { src: '/images/_B2A6554-X4.jpg', alt: 'Night endurance racing at NJMP' },
-  { src: '/images/4.25.25 Queally Mazda Classic-05133.jpg', alt: 'Queally Mazda Classic at Lime Rock' },
-  { src: '/images/8.3.24 Member Challenge Race-7009.jpg', alt: 'Member Challenge Race at Monticello' },
-  { src: '/images/IMG_4395.jpg', alt: 'Ready to race' },
-  { src: '/images/PXL_20260301_000639456.jpg', alt: 'WRL at Barber Motorsports Park' },
+  { src: `${base}images/IMG_4420.jpg`, alt: 'P1 podium at Monticello Motor Club' },
+  { src: `${base}images/_B2A6554-X4.jpg`, alt: 'Night endurance racing at NJMP' },
+  { src: `${base}images/4.25.25 Queally Mazda Classic-05133.jpg`, alt: 'Queally Mazda Classic at Lime Rock' },
+  { src: `${base}images/8.3.24 Member Challenge Race-7009.jpg`, alt: 'Member Challenge Race at Monticello' },
+  { src: `${base}images/IMG_4395.jpg`, alt: 'Ready to race' },
+  { src: `${base}images/PXL_20260301_000639456.jpg`, alt: 'WRL at Barber Motorsports Park' },
 ]
 
 const CAR_IMAGES = {
-  'Mazda Miata NB': '/images/cars/mazda_nb.png',
-  'Porsche GT3': '/images/cars/porsche_gt3.png',
-  'BMW E46': '/images/cars/bmw_e46.png',
-  'Porsche Cayman': '/images/cars/porsche_caymen.png',
-  'BMW E36': '/images/cars/bmw_e36.png',
+  'Mazda Miata NB': `${base}images/cars/mazda_nb.png`,
+  'Porsche GT3': `${base}images/cars/porsche_gt3.png`,
+  'BMW E46': `${base}images/cars/bmw_e46.png`,
+  'Porsche Cayman': `${base}images/cars/porsche_caymen.png`,
+  'BMW E36': `${base}images/cars/bmw_e36.png`,
 }
 
 function ordinal(n) {
