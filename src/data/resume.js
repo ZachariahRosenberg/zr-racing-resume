@@ -32,7 +32,7 @@ export const tracks = [
   { name: 'MMC', laps: 384 },
   { name: 'Summit Point', laps: 270 },
   { name: 'NJMP Thunderbolt', laps: 263 },
-  { name: 'Watkins Glen', laps: 224 },
+  { name: 'Watkins Glen', laps: 264 },
   { name: 'NJMP Lightning', laps: 212 },
   { name: 'VIR', laps: 204 },
   { name: 'PittRace', laps: 117 },
@@ -47,6 +47,8 @@ export const raceHighlights = [
   {
     year: 2026,
     results: [
+      { date: '5/2', sanction: 'AER', eventType: 'Enduro', track: 'Watkins Glen', class: '2', position: 3 },
+      { date: '5/1', sanction: 'AER', eventType: 'Enduro', track: 'Watkins Glen', class: '2', position: 1 },
       { date: '3/1', sanction: 'WRL', eventType: 'Enduro', track: 'Barber', class: 'GP2', position: 4 },
       { date: '2/28', sanction: 'WRL', eventType: 'Enduro', track: 'Barber', class: 'GP2', position: 2 },
     ],
