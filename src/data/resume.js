@@ -12,24 +12,26 @@ export const achievements = [
 export const credentials = [
   'SCCA Full Competition',
   'AER Full Competition',
+  'Northeast GT Full Competition',
   'WRL Race Member',
   'PCA Black Run Group',
   'MMC Red Run Group',
 ]
 
 export const cars = [
-  { name: 'Mazda Miata NB', laps: 2642 },
+  { name: 'Mazda Miata NB', laps: 2698 },
   { name: 'Porsche GT3', laps: 410 },
   { name: 'BMW E46', laps: 414 },
+  { name: 'Acura Integra', laps: 127 },
   { name: 'Porsche Cayman', laps: 106 },
   { name: 'BMW E36', laps: 78 },
 ]
 
 export const tracks = [
+  { name: 'MMC (South)', laps: 809 },
   { name: 'Lime Rock', laps: 754 },
-  { name: 'MMC (South)', laps: 753 },
   { name: 'Barber', laps: 491 },
-  { name: 'MMC', laps: 384 },
+  { name: 'MMC', laps: 408 },
   { name: 'Summit Point', laps: 270 },
   { name: 'NJMP Thunderbolt', laps: 263 },
   { name: 'Watkins Glen', laps: 264 },
@@ -39,6 +41,7 @@ export const tracks = [
   { name: 'Mid-Ohio', laps: 111 },
   { name: 'Road America', laps: 96 },
   { name: 'Watkins Glen - Short', laps: 91 },
+  { name: 'Palmer', laps: 87 },
   { name: 'MMC (North)', laps: 53 },
   { name: 'Poconos (North)', laps: 36 },
 ]
@@ -47,6 +50,9 @@ export const raceHighlights = [
   {
     year: 2026,
     results: [
+      { date: '6/7', sanction: 'NEGT', eventType: 'Enduro', track: 'Palmer', class: 'GT-11', position: 2 },
+      { date: '6/6', sanction: 'NEGT', eventType: 'Enduro', track: 'Palmer', class: 'GT-11', position: 1 },
+      { date: '5/8', sanction: 'MMC', eventType: 'Club Race', track: 'Monticello', class: 'SM', position: 3 },
       { date: '5/2', sanction: 'AER', eventType: 'Enduro', track: 'Watkins Glen', class: '2', position: 3 },
       { date: '5/1', sanction: 'AER', eventType: 'Enduro', track: 'Watkins Glen', class: '2', position: 1 },
       { date: '3/1', sanction: 'WRL', eventType: 'Enduro', track: 'Barber', class: 'GP2', position: 4 },
