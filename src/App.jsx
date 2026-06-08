@@ -21,6 +21,7 @@ const CAR_IMAGES = {
   'Mazda Miata NB': `${base}images/cars/mazda_nb.png`,
   'Porsche GT3': `${base}images/cars/porsche_gt3.png`,
   'BMW E46': `${base}images/cars/bmw_e46.png`,
+  'Acura Integra': `${base}images/cars/acura_integra.png`,
   'Porsche Cayman': `${base}images/cars/porsche_caymen.png`,
   'BMW E36': `${base}images/cars/bmw_e36.png`,
 }
